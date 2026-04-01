@@ -2,24 +2,25 @@
 
 CryptoPlace is a modern cryptocurrency marketplace web app built with React and Vite. It allows users to explore real-time crypto prices, view detailed coin analytics, and securely sign up or log in with Firebase authentication.
 
+![image-bg](public/image-bg.png)
 
 ## ✨ Features
 
--   🔒 **Authentication:** Secure sign up, sign in, and sign out with Firebase.
--   📈 **Live Crypto Data:** Real-time prices, market cap, and 24H changes for top cryptocurrencies.
--   🔍 **Search & Filter:** Instantly search for any coin by name.
--   📊 **Charts:** Interactive price history charts powered by Google Charts.
--   🌐 **Currency Switch:** View prices in USD, EUR, or INR.
--   🦄 **Responsive UI:** Beautiful, mobile-friendly design with animated backgrounds.
--   🦾 **Toast Notifications:** User feedback for actions and errors.
+- 🔒 **Authentication:** Secure sign up, sign in, and sign out with Firebase.
+- 📈 **Live Crypto Data:** Real-time prices, market cap, and 24H changes for top cryptocurrencies.
+- 🔍 **Search & Filter:** Instantly search for any coin by name.
+- 📊 **Charts:** Interactive price history charts powered by Google Charts.
+- 🌐 **Currency Switch:** View prices in USD, EUR, or INR.
+- 🦄 **Responsive UI:** Beautiful, mobile-friendly design with animated backgrounds.
+- 🦾 **Toast Notifications:** User feedback for actions and errors.
 
 ## 🛠️ Tech Stack
 
--   **Frontend:** React 19, Vite, React Router, CSS Modules
--   **Charts:** react-google-charts
--   **Authentication & Database:** Firebase, Firestore
--   **State Management:** React Context API
--   **Notifications:** react-toastify
+- **Frontend:** React 19, Vite, React Router, CSS Modules
+- **Charts:** react-google-charts
+- **Authentication & Database:** Firebase, Firestore
+- **State Management:** React Context API
+- **Notifications:** react-toastify
 
 ## 📦 Installation
 
@@ -37,7 +38,6 @@ CryptoPlace is a modern cryptocurrency marketplace web app built with React and 
     ```
 
 3. **Set up environment variables:**
-
     - Create a `.env` file in the root directory.
     - Add your Firebase and CoinGecko API keys:
         ```
@@ -74,30 +74,30 @@ CryptoPlace/
 
 ## 🔧 Available Scripts
 
--   `npm run dev` - Start development server
--   `npm run build` - Build for production
--   `npm run preview` - Preview production build
--   `npm run lint` - Run ESLint
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
 ## 🎯 Key Components
 
 ### Authentication
 
--   Secure Firebase authentication with email/password
--   User session management with Firebase Auth hooks
--   Protected routes for authenticated users only
+- Secure Firebase authentication with email/password
+- User session management with Firebase Auth hooks
+- Protected routes for authenticated users only
 
 ### Real-time Data
 
--   Live cryptocurrency data from CoinGecko API
--   Real-time price updates and market statistics
--   Historical price charts for detailed analysis
+- Live cryptocurrency data from CoinGecko API
+- Real-time price updates and market statistics
+- Historical price charts for detailed analysis
 
 ### User Interface
 
--   Modern, responsive design with CSS animations
--   Intuitive navigation and search functionality
--   Toast notifications for user feedback
+- Modern, responsive design with CSS animations
+- Intuitive navigation and search functionality
+- Toast notifications for user feedback
 
 ## 🔌 API Integration
 
@@ -107,17 +107,17 @@ This project integrates with the **CoinGecko API** to provide comprehensive cryp
 
 #### Endpoints Used:
 
--   **`/coins/markets`** - Fetches live market data for cryptocurrencies
--   **`/coins/{id}`** - Gets detailed information for specific coins
--   **`/coins/{id}/market_chart`** - Retrieves historical price data for charts
+- **`/coins/markets`** - Fetches live market data for cryptocurrencies
+- **`/coins/{id}`** - Gets detailed information for specific coins
+- **`/coins/{id}/market_chart`** - Retrieves historical price data for charts
 
 #### Features Powered by CoinGecko:
 
--   📊 **Real-time Prices** - Live cryptocurrency prices with automatic updates
--   📈 **Market Statistics** - Market cap, trading volume, and price changes
--   🕒 **Historical Data** - 10-day price history for interactive charts
--   🌍 **Multi-Currency** - Support for USD, EUR, and INR pricing
--   🔍 **Comprehensive Data** - Market rank, supply data, and price statistics
+- 📊 **Real-time Prices** - Live cryptocurrency prices with automatic updates
+- 📈 **Market Statistics** - Market cap, trading volume, and price changes
+- 🕒 **Historical Data** - 10-day price history for interactive charts
+- 🌍 **Multi-Currency** - Support for USD, EUR, and INR pricing
+- 🔍 **Comprehensive Data** - Market rank, supply data, and price statistics
 
 #### API Configuration:
 
@@ -133,7 +133,7 @@ const options = {
 
 fetch(
     `https://api.coingecko.com/api/v3/coins/markets?vs_currency=${currency.name}`,
-    options
+    options,
 );
 ```
 
@@ -178,9 +178,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
--   [CoinGecko API](https://www.coingecko.com/en/api) for cryptocurrency data
--   [Firebase](https://firebase.google.com/) for authentication and database
--   [React Google Charts](https://react-google-charts.com/) for chart visualization
+- [CoinGecko API](https://www.coingecko.com/en/api) for cryptocurrency data
+- [Firebase](https://firebase.google.com/) for authentication and database
+- [React Google Charts](https://react-google-charts.com/) for chart visualization
 
 ---
 
